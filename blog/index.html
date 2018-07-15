@@ -1,0 +1,16 @@
+--- 
+layout: default 
+meta_title: "Blog"
+meta_description: ""
+---
+
+<div class="PageContent">
+  <div class="Grid">
+  {% for post in site.posts %}
+    <div class="Grid-item">
+      <!-- <img src="{{ gridItem.imageFilename | prepend: " /assets/images/ " | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" nopin="nopin" /> -->
+      <p>{{post.title}}</p>
+    </div>
+    {% endfor %}
+    </div>
+</div>
