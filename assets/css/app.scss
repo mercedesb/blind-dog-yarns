@@ -1,0 +1,115 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@font-face {
+    font-family: 'candelabook';
+    src: url('../../../assets/fonts/CandelaBook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'candelabook_italic';
+    src: url('../assets/fonts/CandelaItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'candelabold';
+    src: url('../assets/fonts/CandelaBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'candelabold_italic';
+    src: url('../assets/fonts/CandelaBoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import 'variables.scss';
+@import 'typography.scss';
+@import 'pageheader.scss';
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  background-color: $white;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  display: flex;
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 $base-spacing;
+  line-height: 1.5em;
+}
+
+li {
+  display: inline-block;
+  margin: 0 $small-spacing $small-spacing;
+}
+
+.FlexContainer {
+  @include flex-container;
+  flex-wrap: wrap;
+}
+
+.PageContent {
+  max-width: $content-width;
+  /*width: 100%;*/
+  margin: 0 $base-spacing;
+
+  a {
+    text-decoration: underline;
+  }
+
+  p img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+  }
+
+  &--wide {
+    max-width: $wide-content-width;
+  }
+
+  &-header {
+    margin: $large-spacing 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.Button {
+  min-width: $button-width;
+  height: $button-height;
+  background-color: $light-gray;
+  border: 1px solid $light-gray;
+  border-radius: $base-radius;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

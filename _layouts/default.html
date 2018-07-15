@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body{% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
+  <div class="app">
+    <div class="PageHeader">
+      <img class="PageHeader-logo" src='../assets/images/BlindDogYarns-vector-black.svg' />
+      <h1 class="PageHeader-title">Blind Dog Yarns</h1>
+    </div>
+    {{ content }} 
+  </div>
+  </body>
+</html>
