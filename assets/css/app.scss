@@ -109,6 +109,22 @@ li {
     display: flex;
     align-items: center;
   }
+
+  &-image {
+    margin: 0 $base-spacing;
+    max-width: 300px;
+
+    &--wrapLeft {
+      float: left;
+      margin-left: 0;
+    }
+
+    &--wrapRight {
+      float: right;
+      margin-right: 0;
+    }
+  }
+
 }
 
 .Button {
