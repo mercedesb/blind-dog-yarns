@@ -1,0 +1,16 @@
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-item {
+     @media (min-width: $tablet-large-width) {
+      margin: $base-spacing;
+      flex-basis: calc(33.333% - 40px); 
+      
+      img {
+        max-width:100%;
+        max-height:100%;
+      }
+    }
+  }
+}

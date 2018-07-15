@@ -1,0 +1,36 @@
+$announcement-height: 50px;
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      display: inline-block;
+    }
+  }
+
+  &--header {
+    font-size: $large-font-size;
+  }
+
+  &--footer {
+    background-color: $light-brown;
+    padding: $base-spacing;
+  }
+}
+
+.SiteAnnouncement {
+  height: $announcement-height;
+  background-color: $brown;
+  margin-bottom: $large-spacing;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $large-font-size;
+}

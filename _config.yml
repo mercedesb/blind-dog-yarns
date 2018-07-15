@@ -25,6 +25,7 @@ baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  mercedesb
+announcement: New website! Checkout the blog!
 sass:
     sass_dir: _sass
 

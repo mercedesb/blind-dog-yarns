@@ -1,53 +1,26 @@
-$header-height: 300px;
-
 $logo-width: 200px;
 $text-width: 500px;
 
 .PageHeader {
-  overflow: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   align-items: center;
   position: relative;
-  padding: $base-spacing;
-  margin-bottom: $large-spacing;
+  padding: $small-spacing;
   background-color: $light-brown;
 
-  @include media($min-tablet) {
-    height: $header-height;
+  .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &-logo {
     max-width: $logo-width;
   }
 
-  &-text {
-    padding: 0 $base-spacing;
-    width: 100%;
-
-    @include media($min-tablet) {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      padding: 0;
-    }
-  }
-
-
-  &-titleHeader {
-    margin: 0 $base-spacing;
-    text-align: center;
-
-    * {
-      font-family: $base-font-family;
-      font-weight: $base-font-weight;
-      font-size: $large-font-size;
-
-      @include media($min-tablet) {
-        font-size: $larger-font-size;
-      }
-    }
+  &-title {
+    margin: 0 0 20px;
   }
 }

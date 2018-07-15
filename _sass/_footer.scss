@@ -1,0 +1,18 @@
+$footer-height: 50px;
+
+.Footer {
+  &-content {
+    height: $footer-height;
+    background-color: $brown;
+    color: $white;
+    font-size: $large-font-size;
+    font-family: $candela;
+    display: flex;
+    align-items: center;
+    padding: 0 $base-spacing;
+
+    img {
+      margin: 0 $small-spacing;
+    }
+  }
+}

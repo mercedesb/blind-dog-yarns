@@ -3,13 +3,26 @@
 
 {% include head.html %}
 
-<body{% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
-  <div class="app">
-    <div class="PageHeader">
-      <img class="PageHeader-logo" src='../assets/images/BlindDogYarns-vector-black.svg' />
-      <h1 class="PageHeader-title">Blind Dog Yarns</h1>
+  <body{% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
+    <div id="app">
+      <div class="PageHeader">
+        <div class="Container">
+          <img class="PageHeader-logo" src='../assets/images/BlindDogYarns-vector-black.svg' />
+          <h1 class="PageHeader-title">Blind Dog Yarns</h1>
+          <div class="Nav Nav--header">
+            {% include nav.html %}
+          </div>
+        </div>
+      </div>
+      <div class="SiteAnnouncement">
+        <div class="Container">
+          {{site.announcement}}
+        </div>
+      </div>
+      <div class="Container">
+        {{ content }} 
+      </div>
+      {% include footer.html %}
     </div>
-    {{ content }} 
-  </div>
   </body>
 </html>
