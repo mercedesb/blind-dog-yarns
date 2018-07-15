@@ -23,8 +23,7 @@ description: Blind Dog Yarns makes handspun yarn and crochet products in Chicago
 baseurl: "" 
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  mercedesb
+instagram_username: blinddogyarns
 announcement: New website! Checkout the blog!
 navigation:
   - title: Home

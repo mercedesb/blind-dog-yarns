@@ -14,5 +14,11 @@ $footer-height: 50px;
     img {
       margin: 0 $small-spacing;
     }
+
+    a {
+      color: white;
+      display: flex;
+      align-items: center;
+    }
   }
 }
