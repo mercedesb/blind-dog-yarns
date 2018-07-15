@@ -1,9 +1,13 @@
 <nav>
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/my-story">My Story</a></li>
-    <li>Browse</li>
-    <li><a href="/blog">Blog</a></li>
-    <li>Contact</li>
+    {% for item in site.navigation %} 
+      {% assign class = nil %} 
+      {% if page.url contains item.url and item.handle_active %} 
+        {% assign class = 'active'%} 
+      {% endif %}
+      <li class="{{class}}">
+        <a href="{{item.url}}">{{item.title}}</a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>

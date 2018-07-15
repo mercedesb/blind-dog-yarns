@@ -26,6 +26,22 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  mercedesb
 announcement: New website! Checkout the blog!
+navigation:
+  - title: Home
+    url: /
+    handle_active: false
+  - title: My Story
+    url: /my-story/
+    handle_active: true
+  - title: Browse
+    url: /browse/
+    handle_active: true
+  - title: Blog
+    url: /blog/
+    handle_active: true
+  - title: Contact
+    url: /contact/
+    handle_active: true
 sass:
     sass_dir: _sass
 

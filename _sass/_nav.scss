@@ -11,6 +11,10 @@ $announcement-height: 50px;
 
     ul {
       display: inline-block;
+
+      .active {
+        text-decoration: underline;
+      }
     }
   }
 
