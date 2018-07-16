@@ -1,7 +1,7 @@
 {
   "handspun-yarns": {
     "name":"Handspun yarns",
-    "imageFilename":"AlpacaHandspun.jpg",
+    "imageFilename":"handspun-yarns/AlpacaHandspun.jpg",
     "imageAltText": "2 skeins handspun alpaca yarn",
     "gallery": [
       {
@@ -23,8 +23,7 @@
   },
   "christmas-stockings": {
     "name": "Christmas stockings",
-    "lik": ,
-    "imageFilename": "SantaStocking.JPG",
+    "imageFilename": "christmas-stockings/SantaStocking.JPG",
     "imageAltText": "Santa Claus crocheted Christmas stocking",
     "teasers": [
       {
@@ -48,14 +47,54 @@
     ],
     "gallery": [
       {
-        "imageFilename": "PenguinStocking.JPG",
-        "imageAltText": "Baby penguin wearing ear muffs crocheted Christmas stocking"
+        "imageFilename": "SantaStocking3.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "MrsClausStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "ElfGirlStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "ElfBoyStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "SnowmanStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "SnowflakeStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "BuffaloStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "MikeWazowskiStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "PawPetStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "BonePetStocking.JPG",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "FishPetStocking.JPG",
+        "imageAltText": ""
       }
     ]
   },
   "scarves": {
     "name": "Scarves",
-    "imageFilename": "CowlFtHandspunArtYarn2.JPG",
+    "imageFilename": "scarves/CowlFtHandspunArtYarn2.JPG",
     "imageAltText": "Cowl featuring my handspun art yarn",
     "gallery": [
       {

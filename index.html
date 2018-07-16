@@ -7,14 +7,14 @@ layout: default
   <div class="Grid">
     {% for gridItem in site.data.home %}
       <div class="Grid-item">
-        <img src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" nopin="nopin" />
+        <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" nopin="nopin" />
         <p>{{gridItem.description}}</p>
       </div>
     {% endfor %}
 
      {% for gridItem in site.data.home %}
     <div class="Grid-item">
-      <img src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}"
+      <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}"
         nopin="nopin" />
       <p>{{gridItem.description}}</p>
     </div>
