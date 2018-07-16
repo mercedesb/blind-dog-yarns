@@ -1,14 +1,5 @@
 {% for gridItem in site.data.browse[page.href].gallery %}
   <div class="Grid-item">
-    {% if gridItem.name %}
-      <h3 class="Grid-itemName">{{gridItem.name}}</h3>
-    {% endif %}
-    <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" nopin="nopin" />
-    {% if gridItem.description %}
-      <p>{{gridItem.description}}</p>
-    {% endif %}
-    {% if gridItem.link %}
-      <a href="{{gridItem.link}}">View more</a>
-    {% endif %}
+    <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/" | prepend: page.href | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" />
   </div>
 {% endfor %}

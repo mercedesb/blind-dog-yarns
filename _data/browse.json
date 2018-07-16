@@ -1,7 +1,7 @@
 {
   "handspun-yarns": {
     "name":"Handspun yarns",
-    "imageFilename":"AlpacaHandspun2.JPG",
+    "imageFilename":"AlpacaHandspun.jpg",
     "imageAltText": "2 skeins handspun alpaca yarn",
     "gallery": [
       {
@@ -26,30 +26,36 @@
     "lik": ,
     "imageFilename": "SantaStocking.JPG",
     "imageAltText": "Santa Claus crocheted Christmas stocking",
-    "gallery": [
+    "teasers": [
       {
         "name": "Whimsical characters",
         "imageFilename": "PenguinStocking.JPG",
         "imageAltText": "Baby penguin wearing ear muffs crocheted Christmas stocking",
-        "description": ""
+        "description": "I have designs for Santa, Mrs. Claus, an elf (girl & boy), Rudolph, a snowman, a snowflake, a gingerbread man, a baby penguin, and more!"
       },
       {
         "name": "Custom designs",
         "imageFilename": "HedgehogStocking.JPG",
         "imageAltText": "Hedgehog wearing a Santa hat crocheted Christmas stocking",
-        "description": ""
+        "description": "I've made stockings featuring a hedgehog wearing a Santa hat, a buffalo with a wreath around its neck, and Mike Wazowski in a Santa hat."
       },
       {
         "name": "Personalization",
         "imageFilename": "PersonalizedFoxStocking.JPG",
         "imageAltText": "Fox crocheted Christmas stocking personalized with first name",
-        "description": ""
+        "description": "Would you like your name on your stocking? $5 for personalization"
+      }
+    ],
+    "gallery": [
+      {
+        "imageFilename": "PenguinStocking.JPG",
+        "imageAltText": "Baby penguin wearing ear muffs crocheted Christmas stocking"
       }
     ]
   },
   "scarves": {
     "name": "Scarves",
-    "imageFilename": "CowlFtHandspunArtYarn.JPG",
+    "imageFilename": "CowlFtHandspunArtYarn2.JPG",
     "imageAltText": "Cowl featuring my handspun art yarn",
     "gallery": [
       {
