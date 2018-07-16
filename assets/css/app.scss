@@ -56,7 +56,8 @@ body {
 }
 
 #app {
-  flex: 1;
+  flex: 1 0 auto;
+  // flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -86,8 +87,6 @@ li {
 }
 
 .PageContent {
-  max-width: $content-width;
-  /*width: 100%;*/
   margin: 0 $base-spacing;
 
   a {
@@ -124,15 +123,20 @@ li {
       margin-right: 0;
     }
   }
-
 }
 
 .Button {
-  min-width: $button-width;
-  height: $button-height;
-  background-color: $light-gray;
-  border: 1px solid $light-gray;
+  background-color: $brown;
+  border: 1px solid $brown;
   border-radius: $base-radius;
+  color: $white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: $base-spacing;
+  margin-bottom: $larger-spacing;
+  text-decoration: none !important;
+  font-size: $large-font-size;
 
   &:hover {
     cursor: pointer;

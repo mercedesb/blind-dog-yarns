@@ -1,0 +1,72 @@
+{
+  "handspun-yarns": {
+    "name":"Handspun yarns",
+    "imageFilename":"AlpacaHandspun2.JPG",
+    "imageAltText": "2 skeins handspun alpaca yarn",
+    "gallery": [
+      {
+        "imageFilename": "BAH-Fiber-handspun.png",
+        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
+        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+      },
+      {
+        "imageFilename": "BAH-Fiber-handspun.png",
+        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
+        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+      },
+      {
+        "imageFilename": "BAH-Fiber-handspun.png",
+        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
+        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+      }
+    ]
+  },
+  "christmas-stockings": {
+    "name": "Christmas stockings",
+    "lik": ,
+    "imageFilename": "SantaStocking.JPG",
+    "imageAltText": "Santa Claus crocheted Christmas stocking",
+    "gallery": [
+      {
+        "name": "Whimsical characters",
+        "imageFilename": "PenguinStocking.JPG",
+        "imageAltText": "Baby penguin wearing ear muffs crocheted Christmas stocking",
+        "description": ""
+      },
+      {
+        "name": "Custom designs",
+        "imageFilename": "HedgehogStocking.JPG",
+        "imageAltText": "Hedgehog wearing a Santa hat crocheted Christmas stocking",
+        "description": ""
+      },
+      {
+        "name": "Personalization",
+        "imageFilename": "PersonalizedFoxStocking.JPG",
+        "imageAltText": "Fox crocheted Christmas stocking personalized with first name",
+        "description": ""
+      }
+    ]
+  },
+  "scarves": {
+    "name": "Scarves",
+    "imageFilename": "CowlFtHandspunArtYarn.JPG",
+    "imageAltText": "Cowl featuring my handspun art yarn",
+    "gallery": [
+      {
+        "imageFilename": "BAH-Fiber-handspun.png",
+        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
+        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+      },
+      {
+        "imageFilename": "BAH-Fiber-handspun.png",
+        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
+        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+      },
+      {
+        "imageFilename": "BAH-Fiber-handspun.png",
+        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
+        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+      }
+    ]
+  }
+}

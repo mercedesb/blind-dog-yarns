@@ -1,6 +1,9 @@
 $footer-height: 50px;
 
 .Footer {
+  flex-shrink: 0;
+  margin-top: $larger-spacing;
+
   &-content {
     height: $footer-height;
     background-color: $brown;

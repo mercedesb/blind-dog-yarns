@@ -5,7 +5,7 @@
   <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- <link rel="shortcut icon" type="image/x-icon" href="{{ " /assets/img/w-s-c-favicon.ico " | prepend: site.baseurl }}"> -->
-  <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ site.href }}{% endif %}" />
+  <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ site.url }}{% endif %}" />
 
   <!-- ## SOCIAL TAGS ## -->
   <meta property="og:locale" content="en_US" />
@@ -13,11 +13,11 @@
 
   <meta property="og:title" content="{% if page.social_title %}{{ page.social_title }}{% elsif page.meta_title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:description" content="{% if page.social_description %}{{ page.social_description }}{% elsif page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:url" content="{{ page.href }}" />
+  <meta property="og:url" content="{{ page.url }}" />
   <meta property="og:image" content="{{ page.open_graph_img }}" />
   <meta property="twitter:title" content="{% if page.social_title %}{{ page.social_title }}{% elsif page.meta_title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="”twitter:description" content="{% if page.social_description %}{{ page.social_description }}{% elsif page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta name=”twitter:url” content="{{ page.href }}" />
+  <meta name=”twitter:url” content="{{ page.url }}" />
   <meta name=”twitter:image” content="{{ page.twitter_img }}" />
 
   <!-- ## LOAD STYLSHEETS ## -->
