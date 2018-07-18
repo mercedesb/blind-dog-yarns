@@ -37,6 +37,7 @@
 @import 'nav.scss';
 @import 'footer.scss';
 @import 'grid.scss';
+@import 'form.scss';
 
 html, body, #app {
   margin: 0;
@@ -126,19 +127,28 @@ li {
 }
 
 .Button {
-  background-color: $brown;
   border: 1px solid $brown;
   border-radius: $base-radius;
-  color: $white;
-  display:flex;
+  color: $brown;
+  font-weight: $heavy-font-weight;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: $base-spacing;
+  padding: $small-spacing $base-spacing;
   margin-bottom: $larger-spacing;
   text-decoration: none !important;
   font-size: $large-font-size;
 
   &:hover {
     cursor: pointer;
+  }
+
+  &--big {
+    padding: $base-spacing;
+  }
+
+  &--solid {
+    background-color: $brown;
+    color: $white;
   }
 }

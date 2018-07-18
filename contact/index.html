@@ -1,0 +1,64 @@
+--- 
+layout: default 
+meta_title: "Handspun yarns"
+meta_description: ""
+href: "handspun-yarns"
+---
+
+<div class="PageContent">
+  <form id='contact-form'>
+    <div class='Form-fieldset'>
+      <label for='from' class='Form-label'>
+        Your Email Address
+      </label>
+      <input type='text' name='from' class='Form-input' required />
+    </div>
+    <div class='Form-fieldset'>
+      <label for='subject' class='Form-label'>
+        Subject
+      </label>
+      <input type='text' name='subject' class='Form-input' required />
+    </div>
+    <div class='Form-fieldset'>
+      <label for='text' class='Form-label'>
+        Message Text
+      </label>
+      <textarea name='text' class='Form-textarea' required></textarea>
+    </div>
+    <div class='Form-fieldset'>
+      <button class='Button' type='submit'>Send!</button>
+    </div>
+  </form>
+</div>
+
+<script>
+  var form_el = document.getElementById('contact-form');
+  form_el.addEventListener("submit", function (evt) {
+    evt.preventDefault();
+
+    var formData = {
+      from: document.getElementsByName('from')[0].value,
+      subject: document.getElementsByName('subject')[0].value,
+      text: document.getElementsByName('text')[0].value
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'http://localhost:8091/utilities/sendToMaker', true);
+    // xhr.open('POST', 'https://mercedes-utils.herokuapp.com/utilities/sendToMaker', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+     xhr.onreadystatechange = function () {
+      if (xhr.status !== 200) {
+        console.log('whoops');
+      }
+      if (this.readyState === 4) {
+        if (this.status === 200) {
+          form_el.innerHTML = "<div class='Form-success'>Thank you for your message! I'll respond as soon as I can.</div>";
+        }
+        else {
+          form_el.innerHTML = "<div class='Form-error'>I'm so sorry, I could not send your email at this time</div>";
+        }
+      }
+    };
+    xhr.send(JSON.stringify(formData));
+  });
+</script>

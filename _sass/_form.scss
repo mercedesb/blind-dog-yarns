@@ -1,0 +1,48 @@
+$form-width: 900px;
+$input-height: $large-spacing;
+$textarea-height: $large-spacing * 5;
+
+  .Form {
+    /*max-width: $form-width;*/
+    margin: 0 $base-spacing;
+
+    &-fieldset {
+      flex-direction: column;
+      margin: $base-spacing 0 0;
+      justify-content: space-between;
+    }
+
+    &-label {
+      font-size: $small-font-size;
+      padding-bottom: $small-spacing;
+    }
+
+    &-input, &-textarea {
+      min-width: 300px;
+      max-width: $form-width;
+      width: 100%;
+      height: $input-height;
+      border: 1px solid $light-gray;
+      border-radius: $base-radius
+    }
+
+    &-textarea {
+      height: $textarea-height;
+      resize: none;
+    }
+
+    .Button {
+      float: right;
+    }
+
+    &-success {
+      font-style: italic;
+      margin-top: $large-spacing;
+    }
+
+    &-error {
+      color: red;
+      font-style: italic;
+      font-size: 16px;
+    }
+  }
