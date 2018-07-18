@@ -5,19 +5,28 @@
     "imageAltText": "2 skeins handspun alpaca yarn",
     "gallery": [
       {
-        "imageFilename": "BAH-Fiber-handspun.png",
-        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
-        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+        "imageFilename": "FruitcakeBFL.jpg",
+        "imageAltText": ""
       },
       {
-        "imageFilename": "BAH-Fiber-handspun.png",
-        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
-        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+        "imageFilename": "PurpleYellowMerino.jpg",
+        "imageAltText": ""
       },
       {
-        "imageFilename": "BAH-Fiber-handspun.png",
-        "imageAltText": "BAH dyed fiber and 1 skein handspun yarn from the same fiber",
-        "description": "Handspun 2-ply, DK weight BAH yarns Targhee/bamboo\n~240 yds"
+        "imageFilename": "WarmColorsMerino.jpg",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "WinterPinoakTarghee.jpg",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "3PlyAlpaca.jpg",
+        "imageAltText": ""
+      },
+      {
+        "imageFilename": "HanddyedHandspun.jpg",
+        "imageAltText": ""
       }
     ]
   },
@@ -69,6 +78,10 @@
       {
         "imageFilename": "SnowflakeStocking.JPG",
         "imageAltText": ""
+      },
+      {
+        "imageFilename": "HedgehogStocking.JPG",
+        "imageAltText": "Hedgehog wearing a Santa hat crocheted Christmas stocking"
       },
       {
         "imageFilename": "BuffaloStocking.JPG",
