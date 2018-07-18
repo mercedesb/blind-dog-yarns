@@ -24,11 +24,8 @@
       align-self: flex-start;
       margin-top: $small-spacing;
       display: block;
+      text-decoration: none;
     }
-  }
-
-  &-itemName {
-    text-decoration: none;
   }
 
   &-itemImg {

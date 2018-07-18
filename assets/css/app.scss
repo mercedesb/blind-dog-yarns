@@ -80,6 +80,15 @@ li {
 .FlexContainer {
   @include flex-container;
   flex-wrap: wrap;
+  &-child {
+    flex: 1;
+    margin-right: $base-spacing;
+
+    // TODO: fix this if more than 2
+    &:last-child {
+      margin-right: $base-spacing;
+    }
+  }
 }
 
 .Container {
@@ -89,10 +98,6 @@ li {
 
 .PageContent {
   margin: 0 $base-spacing;
-
-  a {
-    text-decoration: underline;
-  }
 
   p img {
     display: block;
@@ -138,9 +143,11 @@ li {
   margin-bottom: $larger-spacing;
   text-decoration: none !important;
   font-size: $large-font-size;
+  transition: 0.5s;
 
   &:hover {
     cursor: pointer;
+    background-color: $light-brown;
   }
 
   &--big {
@@ -150,5 +157,13 @@ li {
   &--solid {
     background-color: $brown;
     color: $white;
+
+    &:hover {
+      background-color: darken($brown, 10%);
+    }
   }
+}
+
+button.Button {
+  width: 100%;
 }

@@ -24,7 +24,7 @@ baseurl: ""
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: blinddogyarns
-announcement: New website! Checkout the blog!
+announcement: New website! Checkout the <a href="blog">blog</a>!
 navigation:
   - title: Home
     url: /

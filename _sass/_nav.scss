@@ -11,9 +11,20 @@ $announcement-height: 50px;
 
     ul {
       display: inline-block;
+      
+      li {
+        a {
+          text-decoration: none;
 
-      .active {
-        text-decoration: underline;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.active {
+          a {
+            text-decoration: underline;
+          }
+        }
       }
     }
   }

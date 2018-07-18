@@ -7,27 +7,33 @@ href: "handspun-yarns"
 
 <div class="PageContent">
   <form id='contact-form'>
-    <div class='Form-fieldset'>
-      <label for='from' class='Form-label'>
-        Your Email Address
-      </label>
-      <input type='text' name='from' class='Form-input' required />
+    <div class='FlexContainer'>
+    <div class='FlexContainer-child'>
+      <div class='Form-fieldset'>
+        <label for='from' class='Form-label'>
+          Your Email Address
+        </label>
+        <input type='text' name='from' class='Form-input' required />
+      </div>
+      <div class='Form-fieldset'>
+        <label for='subject' class='Form-label'>
+          Subject
+        </label>
+        <input type='text' name='subject' class='Form-input' required />
+      </div>
     </div>
-    <div class='Form-fieldset'>
-      <label for='subject' class='Form-label'>
-        Subject
-      </label>
-      <input type='text' name='subject' class='Form-input' required />
+    <div class='FlexContainer-child'>
+      <div class='Form-fieldset'>
+        <label for='text' class='Form-label'>
+          Message Text
+        </label>
+        <textarea name='text' class='Form-textarea' required></textarea>
+      </div>
     </div>
-    <div class='Form-fieldset'>
-      <label for='text' class='Form-label'>
-        Message Text
-      </label>
-      <textarea name='text' class='Form-textarea' required></textarea>
-    </div>
-    <div class='Form-fieldset'>
-      <button class='Button' type='submit'>Send!</button>
-    </div>
+  </div>
+        <div class='Form-fieldset'>
+          <button class='Button Button--solid' type='submit'>Send!</button>
+        </div>
   </form>
 </div>
 
@@ -43,8 +49,7 @@ href: "handspun-yarns"
     };
 
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:8091/utilities/sendToMaker', true);
-    // xhr.open('POST', 'https://mercedes-utils.herokuapp.com/utilities/sendToMaker', true);
+    xhr.open('POST', 'https://mercedes-utils.herokuapp.com/utilities/sendToMaker', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
      xhr.onreadystatechange = function () {
       if (xhr.status !== 200) {
