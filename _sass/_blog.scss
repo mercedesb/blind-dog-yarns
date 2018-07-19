@@ -1,0 +1,15 @@
+.BlogList {
+  display: flex;
+
+  &-item {
+    display:flex;
+    margin: $base-spacing;
+  }
+
+  &-itemImg {
+    margin-right: $larger-spacing;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+}
