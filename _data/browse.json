@@ -32,90 +32,90 @@
   },
   "christmas-stockings": {
     "name": "Christmas stockings",
-    "imageFilename": "christmas-stockings/SantaStocking.JPG",
+    "imageFilename": "christmas-stockings/SantaStocking.jpg",
     "imageAltText": "Santa Claus crocheted Christmas stocking",
     "teasers": [
       {
         "name": "Whimsical characters",
-        "imageFilename": "PenguinStocking.JPG",
+        "imageFilename": "PenguinStocking.jpg",
         "imageAltText": "Baby penguin wearing ear muffs crocheted Christmas stocking",
         "description": "I have designs for Santa, Mrs. Claus, an elf (girl & boy), Rudolph, a snowman, a snowflake, a baby penguin, and more!"
       },
       {
         "name": "Custom designs",
-        "imageFilename": "HedgehogStocking.JPG",
+        "imageFilename": "HedgehogStocking.jpg",
         "imageAltText": "Hedgehog wearing a Santa hat crocheted Christmas stocking",
         "description": "No idea is too weird. I've made stockings featuring a holiday themed hedgehog, buffalo, and Mike Wazowski from Monsters Inc ."
       },
       {
         "name": "Personalization",
-        "imageFilename": "PersonalizedFoxStocking.JPG",
+        "imageFilename": "PersonalizedFoxStocking.jpg",
         "imageAltText": "Fox crocheted Christmas stocking personalized with first name",
         "description": "I'm happy to stitch a name (up to 8 letters) onto your stocking for an additional fee."
       }
     ],
     "gallery": [
       {
-        "imageFilename": "SantaStocking3.JPG",
+        "imageFilename": "SantaStocking3.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "MrsClausStocking.JPG",
+        "imageFilename": "MrsClausStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "ElfGirlStocking.JPG",
+        "imageFilename": "ElfGirlStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "ElfBoyStocking.JPG",
+        "imageFilename": "ElfBoyStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "SnowmanStocking.JPG",
+        "imageFilename": "SnowmanStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "SnowflakeStocking.JPG",
+        "imageFilename": "SnowflakeStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "HedgehogStocking.JPG",
+        "imageFilename": "HedgehogStocking.jpg",
         "imageAltText": "Hedgehog wearing a Santa hat crocheted Christmas stocking"
       },
       {
-        "imageFilename": "BuffaloStocking.JPG",
+        "imageFilename": "BuffaloStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "MikeWazowskiStocking.JPG",
+        "imageFilename": "MikeWazowskiStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "PawPetStocking.JPG",
+        "imageFilename": "PawPetStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "BonePetStocking.JPG",
+        "imageFilename": "BonePetStocking.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "FishPetStocking.JPG",
+        "imageFilename": "FishPetStocking.jpg",
         "imageAltText": ""
       }
     ]
   },
   "scarves": {
     "name": "Scarves",
-    "imageFilename": "scarves/CowlFtHandspunArtYarn2.JPG",
+    "imageFilename": "scarves/CowlFtHandspunArtYarn2.jpg",
     "imageAltText": "Cowl featuring my handspun art yarn",
     "gallery": [
       {
-        "imageFilename": "Black_RedYellowScarf.JPG",
+        "imageFilename": "Black_RedYellowScarf.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Blue_OrangeWhiteCowl.JPG",
+        "imageFilename": "Blue_OrangeWhiteCowl.jpg",
         "imageAltText": ""
       },
       {
@@ -131,15 +131,15 @@
         "imageAltText": ""
       },
       {
-        "imageFilename": "Gray_BluePinkCowl.JPG",
+        "imageFilename": "Gray_BluePinkCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Gray_BlueRedCowl.JPG",
+        "imageFilename": "Gray_BlueRedCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Gray_GrenBlueCowl.JPG",
+        "imageFilename": "Gray_GrenBlueCowl.jpg",
         "imageAltText": ""
       },
       {
@@ -147,31 +147,31 @@
         "imageAltText": ""
       },
       {
-        "imageFilename": "Gray_RedBlueCowl.JPG",
+        "imageFilename": "Gray_RedBlueCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Gray_RedWhiteCowl.JPG",
+        "imageFilename": "Gray_RedWhiteCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Gray_TealTanScarf.JPG",
+        "imageFilename": "Gray_TealTanScarf.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Green_GreenBlueCowl.JPG",
+        "imageFilename": "Green_GreenBlueCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Mint_PurpleBlueCowl.JPG",
+        "imageFilename": "Mint_PurpleBlueCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Mint_PurpleBlueCowl2.JPG",
+        "imageFilename": "Mint_PurpleBlueCowl2.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Mint_RedCowl.JPG",
+        "imageFilename": "Mint_RedCowl.jpg",
         "imageAltText": ""
       },
       {
@@ -179,23 +179,23 @@
         "imageAltText": ""
       },
       {
-        "imageFilename": "Pink_GreenCowl.JPG",
+        "imageFilename": "Pink_GreenCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Pink_GreenYellowCowl.JPG",
+        "imageFilename": "Pink_GreenYellowCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Pink_PinkPurpleScarf.JPG",
+        "imageFilename": "Pink_PinkPurpleScarf.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Pink_PinkYellowCowl.JPG",
+        "imageFilename": "Pink_PinkYellowCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Pink_PurpleBlueCowl.JPG",
+        "imageFilename": "Pink_PurpleBlueCowl.jpg",
         "imageAltText": ""
       },
       {
@@ -203,7 +203,7 @@
         "imageAltText": ""
       },
       {
-        "imageFilename": "White_RedYellowCowl.JPG",
+        "imageFilename": "White_RedYellowCowl.jpg",
         "imageAltText": ""
       },
       {
@@ -215,11 +215,11 @@
         "imageAltText": ""
       },
       {
-        "imageFilename": "Yellow_PinkOrangeCowl.JPG",
+        "imageFilename": "Yellow_PinkOrangeCowl.jpg",
         "imageAltText": ""
       },
       {
-        "imageFilename": "Yellow_PurpleGreenCowl.JPG",
+        "imageFilename": "Yellow_PurpleGreenCowl.jpg",
         "imageAltText": ""
       }
     ]
