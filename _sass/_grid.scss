@@ -3,21 +3,26 @@
   flex-wrap: wrap;
 
   &-item {
-    margin: $base-spacing;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: $base-spacing;
 
-    &:nth-child(3n) {
-      margin-right: 0;
-    }
-
-    &:nth-child(3n+1) {
-      margin-left: 0;
-    }
-
-    @media (min-width: $tablet-large-width) {
+    @media (min-width: $tablet-width) {
+      margin: $base-spacing;
       flex-basis: calc(33.333% - 40px); 
+
+      &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+        margin-top: 0;
+      }
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+
+      &:nth-child(3n+1) {
+        margin-left: 0;
+      }
     }
 
     a {

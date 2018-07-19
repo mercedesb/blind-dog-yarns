@@ -1,7 +1,9 @@
 --- 
 layout: default 
-meta_title: "Browse"
-meta_description: ""
+meta_title: "Browse | Blind Dog Yarns"
+meta_description: "Blind Dog Yarns is happy to present 3 product lines featuring their handspun yarns, custom Christmas stockings, and unique art yarn scarves"
+open_graph_img: /assets/images/BlindDogYarns-vector-black.svg
+twitter_img: /assets/images/BlindDogYarns-vector-black.svg
 ---
 
 <div class="PageContent">
@@ -12,10 +14,10 @@ meta_description: ""
       <a href="{{gridItem[0]}}">
         <h2 class="Grid-itemName">{{gridItemValue.name}}</h2>
         <img class="Grid-itemImg" src="{{ gridItemValue.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItemValue.imageAltText}}"
-          nopin="nopin" />
-          {% if gridItemValue.description %}
-            <p>{{gridItemValue.description}}</p>
-          {% endif %}
+        nopin="nopin" />
+        {% if gridItemValue.description %}
+        <p>{{gridItemValue.description}}</p>
+        {% endif %}
         View more
       </a>
     </div>

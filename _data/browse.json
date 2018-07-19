@@ -39,19 +39,19 @@
         "name": "Whimsical characters",
         "imageFilename": "PenguinStocking.JPG",
         "imageAltText": "Baby penguin wearing ear muffs crocheted Christmas stocking",
-        "description": "I have designs for Santa, Mrs. Claus, an elf (girl & boy), Rudolph, a snowman, a snowflake, a gingerbread man, a baby penguin, and more!"
+        "description": "I have designs for Santa, Mrs. Claus, an elf (girl & boy), Rudolph, a snowman, a snowflake, a baby penguin, and more!"
       },
       {
         "name": "Custom designs",
         "imageFilename": "HedgehogStocking.JPG",
         "imageAltText": "Hedgehog wearing a Santa hat crocheted Christmas stocking",
-        "description": "I've made stockings featuring a hedgehog wearing a Santa hat, a buffalo with a wreath around its neck, and Mike Wazowski in a Santa hat."
+        "description": "No idea is too weird. I've made stockings featuring a holiday themed hedgehog, buffalo, and Mike Wazowski from Monsters Inc ."
       },
       {
         "name": "Personalization",
         "imageFilename": "PersonalizedFoxStocking.JPG",
         "imageAltText": "Fox crocheted Christmas stocking personalized with first name",
-        "description": "Would you like your name on your stocking? $5 for personalization"
+        "description": "I'm happy to stitch a name (up to 8 letters) onto your stocking for an additional fee."
       }
     ],
     "gallery": [
@@ -144,10 +144,6 @@
       },
       {
         "imageFilename": "Gray_OrangeGreenCowl.jpg",
-        "imageAltText": ""
-      },
-      {
-        "imageFilename": "Gray_PurpleBlueCowl.JPG",
         "imageAltText": ""
       },
       {

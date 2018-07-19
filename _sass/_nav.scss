@@ -11,10 +11,37 @@ $announcement-height: 50px;
 
     ul {
       display: inline-block;
+      list-style-type: none;
+      margin-left: 0;
+
       
       li {
+        text-align: center;
+        border-bottom: 1px solid;
+        margin-bottom: 10px;
+
+        &:last-child {
+          border-bottom: none;
+          margin-bottom: 0;
+        }
+
+        @media (min-width: $phone-large-width) {
+          display: inline-block;
+          text-align: initial;
+          border-bottom: none;
+          margin-bottom: 0;
+        }
+
+
         a {
           text-decoration: none;
+          margin-bottom: 10px;
+          display: inline-block;
+
+          @media (min-width: $phone-large-width) {
+          display: inline;
+          margin-bottom: 0;
+        }
 
           &:hover {
             text-decoration: underline;

@@ -24,22 +24,22 @@ baseurl: ""
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: blinddogyarns
-announcement: New website! Checkout the <a href="blog">blog</a>!
+announcement: New website! Checkout the <a href="/blog">blog</a>!
 navigation:
-  - title: Home
+  - title: Browse
     url: /
     handle_active: false
   - title: My Story
     url: /my-story/
-    handle_active: true
-  - title: Browse
-    url: /browse/
     handle_active: true
   - title: Blog
     url: /blog/
     handle_active: true
   - title: Contact
     url: /contact/
+    handle_active: true
+  - title: Policies & FAQs
+    url: /policies
     handle_active: true
 sass:
     sass_dir: _sass

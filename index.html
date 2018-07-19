@@ -1,23 +1,30 @@
 --- 
 layout: default 
+meta_title: Blind Dog Yarns | Handspun yarn and crocheted gifts
+meta_description: Blind Dog Yarns features handspun yarn and crocheted gifts including Christmas stockings, scarves, and custom orders made in Chicago, IL.
+#social_title:
+#social_description:
+open_graph_img: /assets/images/BlindDogYarns-vector-black.svg
+twitter_img: /assets/images/BlindDogYarns-vector-black.svg
 ---
 
 <div class="PageContent">
-  <h2>What I've been working on lately</h2>
+  <p>
+    Thank you for visiting Blind Dog Yarns! I'm so happy to offer my handspun and crocheted creations. 
+    I'm located in Chicago, IL and everything you see on the site has been handmade by me. Please don't hesitate to 
+    <a href="/contact">contact me</a> if you have any questions.
+  </p>
   <div class="Grid">
-    {% for gridItem in site.data.home %}
-      <div class="Grid-item">
-        <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" nopin="nopin" />
-        <p>{{gridItem.description}}</p>
-      </div>
-    {% endfor %}
-
-     {% for gridItem in site.data.home %}
+    {% for gridItem in site.data.browse %} {% assign gridItemValue = gridItem[1] %}
     <div class="Grid-item">
-      <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}"
-        nopin="nopin" />
-      <p>{{gridItem.description}}</p>
+      <a href="browse/{{gridItem[0]}}">
+        <h2 class="Grid-itemName">{{gridItemValue.name}}</h2>
+        <img class="Grid-itemImg" src="{{ gridItemValue.imageFilename | prepend: "/assets/images/" | prepend: site.baseurl }}"
+        alt="{{gridItemValue.imageAltText}}" nopin="nopin" /> {% if gridItemValue.description %}
+        <p>{{gridItemValue.description}}</p>
+        {% endif %} View more
+      </a>
     </div>
     {% endfor %}
-    </div>
+  </div>
 </div>
