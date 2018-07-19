@@ -11,6 +11,11 @@
     margin-right: $larger-spacing;
     max-width: 300px;
     max-height: 300px;
+    flex: 1;
+  }
+
+  &-itemDesc {
+    flex: 1;
   }
 
 }
