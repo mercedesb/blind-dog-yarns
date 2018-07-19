@@ -28,19 +28,19 @@ announcement: New website! Checkout the <a href="/blog">blog</a>!
 navigation:
   - title: Browse
     url: /
-    handle_active: false
+    active_segment: browse
   - title: My Story
     url: /my-story/
-    handle_active: true
+    active_segment: my-story
   - title: Blog
     url: /blog/
-    handle_active: true
+    active_segment: blog
   - title: Contact
     url: /contact/
-    handle_active: true
+    active_segment: contact
   - title: Policies & FAQs
     url: /policies
-    handle_active: true
+    active_segment: policies
 sass:
     sass_dir: _sass
 

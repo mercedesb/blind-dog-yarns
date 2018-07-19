@@ -2,7 +2,7 @@
   <ul>
     {% for item in site.navigation %} 
       {% assign class = nil %} 
-      {% if page.url contains item.url and item.handle_active %} 
+      {% if page.url contains item.active_segment %} 
         {% assign class = 'active'%} 
       {% endif %}
       <li class="{{class}}">
