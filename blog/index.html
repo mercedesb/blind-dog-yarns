@@ -9,13 +9,15 @@ twitter_img: /assets/images/BlindDogYarns-vector-black.svg
 <div class="PageContent">
   <div class="BlogList">
   {% for post in site.posts %}
+  <a href="{{post.url}}">
     <div class="BlogList-item">
       <img class='BlogList-itemImg' src="{{ post.open_graph_img }}" alt="{{post.title}}" nopin="nopin" />
       <div class='BlogList-itemDesc'>
-        <h4>{{post.display_title}}</h4>
+        <h4 class='BlogList-itemTitle'>{{post.display_title}}</h4>
         <p>{{post.description}}</p>
       </div>
     </div>
+  </a>
     {% endfor %}
     </div>
 </div>

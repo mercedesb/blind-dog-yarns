@@ -18,4 +18,12 @@
     flex: 1;
   }
 
+  a {
+    text-decoration: none;
+
+    &:hover .BlogList-itemTitle {
+      text-decoration: underline;
+    }
+  }
+
 }
