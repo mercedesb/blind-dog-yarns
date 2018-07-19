@@ -58,12 +58,35 @@ $announcement-height: 50px;
 
   &--header {
     font-size: $large-font-size;
+
+    nav {
+      display: none;
+
+      &.is-active {
+        display: flex;
+      }
+
+      @media (min-width: $phone-large-width) {
+        display: flex;
+      }
+
+    }
   }
 
   &--footer {
     background-color: $light-brown;
     padding: $base-spacing;
   }
+}
+
+.hamburger {
+  outline: none;
+  align-self: flex-end;
+
+  @media (min-width: $phone-large-width) {
+    display: none;
+  }
+
 }
 
 .SiteAnnouncement {

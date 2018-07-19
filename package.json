@@ -1,0 +1,19 @@
+{
+  "name": "blind-dog-yarns",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "hamburgers": "^0.9.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercedesb/blind-dog-yarns.git"
+  },
+  "author": "Mercedes Bernard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercedesb/blind-dog-yarns/issues"
+  },
+  "homepage": "https://github.com/mercedesb/blind-dog-yarns#readme"
+}
