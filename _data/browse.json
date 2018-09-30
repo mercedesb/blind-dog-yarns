@@ -113,13 +113,14 @@
       {
         "imageFilename": "Black_RedYellowScarf.jpg",
         "imageAltText": "",
-        "name": "",
-        "description": "",
-        "price": "$32.00"
+        "name": "Fire Infinity Scarf",
+        "description": "Infinity scarf with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Blue_OrangeWhiteCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
       },
       {
         "imageFilename": "Blue_PurplePinkCowl.jpg",
