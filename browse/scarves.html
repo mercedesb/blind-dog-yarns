@@ -20,7 +20,15 @@ twitter_img: /assets/images/BlindDogYarns-vector-black.svg
   </p>
   <a href="/contact" class="Button Button--big">Contact me to place an order</a>
  
-  <div class="Grid">
-    {% include gallery.html %}
+  <h3>Infinity Scarves</h3>
+  <div class="Grid Gallery">
+    {% assign collection = site.data.browse[page.href].gallery | where: "type", "infinityScarf" %} {% include gallery.html collection=collection
+    %}
+  </div>
+  
+  <h3>Cowls</h3>
+  <div class="Grid Gallery">
+    {% assign collection = site.data.browse[page.href].gallery | where: "type", "cowl" %} 
+    {% include gallery.html collection=collection %}
   </div>
 </div>

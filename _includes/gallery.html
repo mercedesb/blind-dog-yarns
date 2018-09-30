@@ -1,5 +1,17 @@
-{% for gridItem in site.data.browse[page.href].gallery %}
-  <div class="Grid-item">
-    <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/" | prepend: page.href | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" />
+{% for gridItem in include.collection %}
+  <div class="Grid-item Gallery-item {% if gridItem.withHover %} Gallery-item--withHover {% endif %}">
+    <img class="Grid-itemImg Gallery-itemImg" src="{{ gridItem.imageFilename | prepend: "/" | prepend: page.href | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" />
+    <div class="Gallery-hoverBackground"></div>
+    <div class="Gallery-itemInfo">
+      {% if gridItem.name %}
+        <div class="Gallery-itemName">{{ gridItem.name }}</div>
+      {% endif %}
+      {% if gridItem.description %}
+        <div class="Gallery-itemDesc">{{gridItem.description}}</div>
+      {% endif %}
+      {% if gridItem.price %}
+        <div class="Gallery-itemPrice">{{gridItem.price}}</div>
+      {% endif %}
+    </div>
   </div>
 {% endfor %}

@@ -10,16 +10,6 @@ $light-brown: rgba($brown, .2);
 $black: #252627;
 
 
-
-//Create Array
-$colors-array:  (white $white $black,
-                  brown $brown $white,
-                  purple $purple $white,
-                  yellow $yellow $white,
-                  gray $gray $white,
-                  red $red $white
-                 );
-
 $base-drop-shadow: 0 2px 10px 0 $black;
 
 $oswald: 'Oswald';

@@ -1,0 +1,124 @@
+.Gallery {
+
+  &-item {
+    position: relative;
+
+    &--withHover {
+      cursor: pointer;
+
+      .Gallery-itemInfo {
+        display: none;
+        padding: 5px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        font-weight: $heavy-font-weight;
+        color: $white;
+        animation: fadeOut 0.5s ease-out;
+      }
+   
+      &:hover {
+        .Gallery-hoverBackground {
+          display: block;
+          animation: fadeInTranslucent 0.5s ease-out;
+        }
+
+        .Gallery-itemInfo {
+          display: flex;
+          animation: fadeIn 0.5s ease-out;
+        }
+      }
+    }
+  }
+
+  &-itemInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &-itemName {
+    font-weight: $heavy-font-weight;
+  }
+
+  &-hoverBackground {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: $black;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    animation: fadeOutTranslucent 0.5s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: flex;
+    opacity: 0;
+  }
+
+  100% {
+    display: flex;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInTranslucent {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: flex;
+    opacity: 0;
+  }
+
+  100% {
+    display: flex;
+    opacity: .6;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    display: flex;
+    opacity: 1;
+  }
+
+  99% {
+    display: flex;
+    opacity: 0;
+  }
+
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOutTranslucent {
+  0% {
+    display: flex;
+    opacity: .6;
+  }
+
+  99% {
+    display: flex;
+    opacity: 0;
+  }
+
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
