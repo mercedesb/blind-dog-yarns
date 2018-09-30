@@ -113,7 +113,7 @@
       {
         "imageFilename": "Black_RedYellowScarf.jpg",
         "imageAltText": "",
-        "name": "Fire Infinity Scarf",
+        "type": "infinityScarf",
         "description": "Infinity scarf with handspun merino wool accent",
         "price": "$32.00", 
         "withHover": true
@@ -121,110 +121,186 @@
       {
         "imageFilename": "Blue_OrangeWhiteCowl.jpg",
         "imageAltText": "",
+        "type": "infinityScarf",
+        "description": "Infinity scarf with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Blue_PurplePinkCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Blue_YellowCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and Angelina sparkle accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Brown_PurpleBlueCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and bamboo accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Gray_BluePinkCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Gray_BlueRedCowl.jpg",
-        "imageAltText": ""
-      },
-      {
-        "imageFilename": "Gray_GrenBlueCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Gray_OrangeGreenCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and bamboo accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Gray_RedBlueCowl.jpg",
-        "imageAltText": ""
-      },
-      {
-        "imageFilename": "Gray_RedWhiteCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and bamboo accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Gray_TealTanScarf.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "infinityScarf",
+        "description": "Infinity scarf with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Green_GreenBlueCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Mint_PurpleBlueCowl.jpg",
-        "imageAltText": ""
-      },
-      {
-        "imageFilename": "Mint_PurpleBlueCowl2.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Mint_RedCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and bamboo accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Mint_RedYellowScarf.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "infinityScarf",
+        "description": "Infinity scarf with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Pink_GreenCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and bamboo accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Pink_GreenYellowCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Pink_PinkPurpleScarf.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "infinityScarf",
+        "description": "Infinity scarf with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Pink_PinkYellowCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and Angelina sparkle accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Pink_PurpleBlueCowl.jpg",
-        "imageAltText": ""
-      },
-      {
-        "imageFilename": "White_PurpleOrangeScarf.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "White_RedYellowCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Yellow_GreenBluePinkCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and bamboo accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Yellow_MintCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Yellow_PinkOrangeCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "cowl",
+        "description": "Cowl with handspun merino wool and Angelina sparkle accent",
+        "price": "$32.00", 
+        "withHover": true
       },
       {
         "imageFilename": "Yellow_PurpleGreenCowl.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "type": "infinityScarf",
+        "description": "Infinity scarf with handspun merino wool accent",
+        "price": "$32.00", 
+        "withHover": true
       }
     ]
   }

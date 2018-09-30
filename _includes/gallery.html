@@ -1,4 +1,4 @@
-{% for gridItem in site.data.browse[page.href].gallery %}
+{% for gridItem in include.collection %}
   <div class="Grid-item Gallery-item {% if gridItem.withHover %} Gallery-item--withHover {% endif %}">
     <img class="Grid-itemImg Gallery-itemImg" src="{{ gridItem.imageFilename | prepend: "/" | prepend: page.href | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" />
     <div class="Gallery-hoverBackground"></div>

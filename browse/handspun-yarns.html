@@ -31,6 +31,7 @@ twitter_img: /assets/images/BlindDogYarns-vector-black.svg
   </p>
 
   <div class="Grid Gallery">
-   {% include gallery.html %}
+    {% assign collection = site.data.browse[page.href].gallery %}
+    {% include gallery.html collection=collection  %}
   </div>
 </div>
