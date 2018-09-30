@@ -112,7 +112,10 @@
     "gallery": [
       {
         "imageFilename": "Black_RedYellowScarf.jpg",
-        "imageAltText": ""
+        "imageAltText": "",
+        "name": "",
+        "description": "",
+        "price": "$32.00"
       },
       {
         "imageFilename": "Blue_OrangeWhiteCowl.jpg",

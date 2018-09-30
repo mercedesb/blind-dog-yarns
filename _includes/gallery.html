@@ -1,5 +1,5 @@
 {% for gridItem in site.data.browse[page.href].gallery %}
-  <div class="Grid-item">
+  <div class="Grid-item Gallery-item {% if gridItem.name %} Gallery-item--withHover {% endif %}">
     <img class="Grid-itemImg" src="{{ gridItem.imageFilename | prepend: "/" | prepend: page.href | prepend: "/assets/images/" | prepend: site.baseurl }}" alt="{{gridItem.imageAltText}}" />
   </div>
 {% endfor %}
