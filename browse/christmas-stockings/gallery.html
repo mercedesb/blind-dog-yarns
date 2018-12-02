@@ -10,7 +10,8 @@ twitter_img: /assets/images/BlindDogYarns-vector-black.svg
 <div class="PageContent">
   <h2>Past designs</h2>
   <div class="Grid">
-    {% include gallery.html %}
+    {% assign collection = site.data.browse[page.href].gallery %}
+    {% include gallery.html collection=collection %}
   </div>
   <a href="/contact" class="Button Button--big">Contact me to get started</a>
 </div>
