@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=News+Cycle");
+
+@font-face {
+    font-family: 'candelabook';
+    src: url('../../../assets/fonts/CandelaBook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'candelabook_italic';
+    src: url('../assets/fonts/CandelaItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'candelabold';
+    src: url('../assets/fonts/CandelaBold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'candelabold_italic';
+    src: url('../assets/fonts/CandelaBoldItalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$body-font: 'News Cycle';
+$candela: 'candelabook';
+
+$header-font-family: $candela, sans-serif;
+$base-font-family: $body-font, sans-serif;
+
 $white: #FFFFFF;
 $brown: #AA916D;
 $purple: #564E58;
@@ -12,11 +48,6 @@ $black: #252627;
 
 $base-drop-shadow: 0 2px 10px 0 $black;
 
-$oswald: 'Oswald';
-$candela: 'candelabook';
-
-$header-font-family: $candela, sans-serif;
-$base-font-family: $oswald, sans-serif;
 
 $small-font-size: 16px;
 $base-font-size: 18px;

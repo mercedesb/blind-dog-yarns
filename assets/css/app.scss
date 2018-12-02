@@ -1,36 +1,6 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css?family=Oswald:300");
-
-@font-face {
-    font-family: 'candelabook';
-    src: url('../../../assets/fonts/CandelaBook-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'candelabook_italic';
-    src: url('../assets/fonts/CandelaItalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'candelabold';
-    src: url('../assets/fonts/CandelaBold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'candelabold_italic';
-    src: url('../assets/fonts/CandelaBoldItalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @import '../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
 
 @import 'variables.scss';
@@ -58,6 +28,10 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+p {
+  font-size: 20px;
 }
 
 #app {
