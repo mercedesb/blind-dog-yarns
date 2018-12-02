@@ -12,6 +12,12 @@ twitter_img: /assets/images/BlindDogYarns-vector-black.svg
     <div class='FlexContainer'>
     <div class='FlexContainer-child'>
       <div class='Form-fieldset'>
+        <label for='name' class='Form-label'>
+          Your Name
+        </label>
+        <input type='text' name='name' class='Form-input' required />
+      </div>
+      <div class='Form-fieldset'>
         <label for='from' class='Form-label'>
           Your Email Address
         </label>
@@ -45,6 +51,7 @@ twitter_img: /assets/images/BlindDogYarns-vector-black.svg
     evt.preventDefault();
 
     var formData = {
+      name: document.getElementsByName('name')[0].value,
       from: document.getElementsByName('from')[0].value,
       subject: document.getElementsByName('subject')[0].value,
       text: document.getElementsByName('text')[0].value
