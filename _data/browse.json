@@ -111,15 +111,6 @@
     "imageAltText": "Cowl featuring my handspun art yarn",
     "gallery": [
       {
-        "imageFilename": "Black_RedYellowScarf.jpg",
-        "imageAltText": "",
-        "type": "infinityScarf",
-        "name": "Black Infinity - 1",
-        "description": "Infinity scarf with hand-dyed and handspun merino wool accent",
-        "price": "$32.00", 
-        "withHover": true
-      },
-      {
         "imageFilename": "Blue_YellowCowl.jpg",
         "imageAltText": "",
         "type": "cowl",
@@ -156,15 +147,6 @@
         "withHover": true
       },
       {
-        "imageFilename": "Gray_TealTanScarf.jpg",
-        "imageAltText": "",
-        "type": "infinityScarf",
-        "name": "Gray Infinity - 1",
-        "description": "Infinity scarf with handspun merino wool accent",
-        "price": "$32.00", 
-        "withHover": true
-      },
-      {
         "imageFilename": "Green_GreenBlueCowl.jpg",
         "imageAltText": "",
         "type": "cowl",
@@ -179,15 +161,6 @@
         "type": "cowl",
         "name": "Mint Cowl - 2",
         "description": "Cowl with handspun merino wool and bamboo accent",
-        "price": "$32.00", 
-        "withHover": true
-      },
-      {
-        "imageFilename": "Mint_RedYellowScarf.jpg",
-        "imageAltText": "",
-        "type": "infinityScarf",
-        "name": "Mint Infinity - 1",
-        "description": "Infinity scarf with hand-dyed and handspun merino wool accent",
         "price": "$32.00", 
         "withHover": true
       },
