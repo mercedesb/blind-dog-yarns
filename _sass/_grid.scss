@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   
-  @media (min-width: $tablet-width) {
+  @include media($min-tablet) {
     justify-content: unset;
   }
 
@@ -13,7 +13,7 @@
     align-items: center;
     margin-bottom: $base-spacing;
 
-    @media (min-width: $tablet-width) {
+    @include media($min-tablet) {
       margin: $base-spacing;
       flex-basis: calc(33.333% - 40px); 
 

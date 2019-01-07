@@ -55,7 +55,7 @@ ul, ol {
   flex-wrap: wrap;
   &-child {
     flex: 1 1 100%;
-     @media (min-width: $tablet-width) {
+     @include media($min-tablet) {
       flex: 1;
       margin-right: $base-spacing;
 
@@ -94,7 +94,7 @@ ul, ol {
   &-image {
     max-width: 100%;
     
-    @media (min-width: $tablet-width) {
+    @include media($min-tablet) {
       margin: 0 $base-spacing;
       max-width: 300px;
 

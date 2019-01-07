@@ -67,7 +67,7 @@ $larger-spacing: 60px;
 
 $base-radius: 2px;
 
-$page-width: 1000px;
+$page-width: 1260px;
 $content-width: 800px;
 $wide-content-width: 1000px;
 $button-width: 300px;
@@ -204,4 +204,36 @@ $max-desktop-large: $max-feature ($desktop-large-width + 1);
   flex-direction: column;
   align-items: center;
   overflow: auto;
+}
+
+@mixin media($query: $feature $value) {
+  @if length($query) == 1 {
+    @media screen and ($default-feature: nth($query, 1)) {
+      @content;
+    }
+  }
+
+  @else {
+    $loop-to: length($query);
+    $media-query: 'screen and ';
+
+    @if length($query) % 2 != 0 {
+      $loop-to: $loop-to - 1;
+    }
+
+    $i: 1;
+    @while $i <= $loop-to {
+      $media-query: $media-query + '(' + nth($query, $i) + ': ' + nth($query, $i + 1) + ') ';
+
+      @if ($i + 1) != $loop-to {
+        $media-query: $media-query + 'and ';
+      }
+
+      $i: $i + 2;
+    }
+
+    @media #{$media-query} {
+      @content;
+    }
+  }
 }

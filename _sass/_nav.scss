@@ -25,7 +25,7 @@ $announcement-height: 50px;
           margin-bottom: 0;
         }
 
-        @media (min-width: $phone-large-width) {
+        @include media($min-tablet) {
           display: inline-block;
           text-align: initial;
           border-bottom: none;
@@ -38,7 +38,7 @@ $announcement-height: 50px;
           margin-bottom: 10px;
           display: inline-block;
 
-          @media (min-width: $phone-large-width) {
+          @include media($min-tablet) {
           display: inline;
           margin-bottom: 0;
         }
@@ -66,7 +66,7 @@ $announcement-height: 50px;
         display: flex;
       }
 
-      @media (min-width: $phone-large-width) {
+      @include media($min-tablet) {
         display: flex;
       }
 
@@ -83,7 +83,7 @@ $announcement-height: 50px;
   outline: none;
   align-self: flex-end;
 
-  @media (min-width: $phone-large-width) {
+  @include media($min-tablet) {
     display: none;
   }
 
